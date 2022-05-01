@@ -2,14 +2,22 @@ import json
 import random
 
 
-def food_schedule_of_the_week(food_items):
+def pick_random_side_dish(side_dish_list: list) -> str:
+    return random.choice(side_dish_list)
+
+
+def food_schedule_of_the_week(food_items: dict):
     NUM_OF_DAYS = 5
-    main_dish_list = food_items['mainDish']
+    main_dish_list: list = food_items['mainDish']
+    vegetables_needed = []
     for i in range(NUM_OF_DAYS):
-        len_of_main_dish_list = len(main_dish_list)
-        chosen_main_dish = random.randint(0,len_of_main_dish_list-1)
+        len_of_main_dish_list: int = len(main_dish_list)
+        chosen_main_dish: dict = random.randint(0,len_of_main_dish_list-1)
         print(main_dish_list[chosen_main_dish])
+        side_dish: str = pick_random_side_dish(main_dish_list[chosen_main_dish]["sideDish"])
+        print(f'side dish:{side_dish}')
         main_dish_list.pop(chosen_main_dish)
+        
     #number of days
     #for each day pick a random main dish
     #for picked mainDish, get the side dish
