@@ -1,3 +1,95 @@
 {
- "name": "hello"
+    "mainDish": [
+        {
+            "_id": 1,
+            "name": "vaggarna uli",
+            "vegetablesNeeded": [
+                "carrot",
+                "ladies finger"
+            ],
+            "sideDish" : [
+                "vazhakaiPoriyal",
+                "vendakaPoriyal"
+
+            ]
+        },
+        {
+            "_id": 2,
+            "name": "aradhitta uli",
+            "vegetablesNeeded": [
+                "carrot",
+                "ladies finger"
+            ],
+            "sideDish" : [
+                "vazhakaiPoriyal",
+                "vendakaPoriyal"
+
+            ]
+        },
+        {
+            "_id": 3,
+            "name": "aradhitta uli",
+            "vegetablesNeeded": [
+                "carrot",
+                "ladies finger"
+            ],
+            "sideDish" : [
+                "vazhakaiPoriyal",
+                "vendakaPoriyal"
+
+            ]
+        },
+        {
+            "_id": 4,
+            "name": "aradhitta uli",
+            "vegetablesNeeded": [
+                "carrot",
+                "ladies finger"
+            ],
+            "sideDish" : [
+                "vazhakaiPoriyal",
+                "vendakaPoriyal"
+
+            ]
+        },
+        {
+            "_id": 5,
+            "name": "aradhitta uli",
+            "vegetablesNeeded": [
+                "carrot",
+                "ladies finger"
+            ],
+            "sideDish" : [
+                "vazhakaiPoriyal",
+                "vendakaPoriyal"
+
+            ]
+        },
+        {
+            "_id": 6,
+            "name": "aradhitta uli",
+            "vegetablesNeeded": [
+                "carrot",
+                "ladies finger"
+            ],
+            "sideDish" : [
+                "vazhakaiPoriyal",
+                "vendakaPoriyal"
+
+            ]
+        }
+    ],
+    "sideDish": {
+        "vazhakaiPoriyal" : {
+            "ingredientsNeeded": [
+                "vazhakai"
+            ]
+            
+        },
+        "vendakaPoriyal": {
+            "ingredientsNeeded": [
+                "vazhakai"
+            ]
+        }
+    }
 }
