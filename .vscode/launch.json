@@ -1,6 +1,14 @@
 {
     "configurations": [
         {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
             "type": "aws-sam",
             "request": "direct-invoke",
             "name": "lambda-python3.8:HelloWorldFunction (python3.8)",

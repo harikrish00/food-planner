@@ -3,7 +3,7 @@
         {
             "_id": 1,
             "name": "vaggarna uli",
-            "vegetablesNeeded": [
+            "ingredientsNeeded": [
                 "carrot",
                 "ladies finger"
             ],
@@ -16,7 +16,7 @@
         {
             "_id": 2,
             "name": "aradhitta uli",
-            "vegetablesNeeded": [
+            "ingredientsNeeded": [
                 "carrot",
                 "ladies finger"
             ],
@@ -29,7 +29,7 @@
         {
             "_id": 3,
             "name": "aradhitta uli",
-            "vegetablesNeeded": [
+            "ingredientsNeeded": [
                 "carrot",
                 "ladies finger"
             ],
@@ -42,7 +42,7 @@
         {
             "_id": 4,
             "name": "aradhitta uli",
-            "vegetablesNeeded": [
+            "ingredientsNeeded": [
                 "carrot",
                 "ladies finger"
             ],
@@ -55,7 +55,7 @@
         {
             "_id": 5,
             "name": "aradhitta uli",
-            "vegetablesNeeded": [
+            "ingredientsNeeded": [
                 "carrot",
                 "ladies finger"
             ],
@@ -68,7 +68,7 @@
         {
             "_id": 6,
             "name": "aradhitta uli",
-            "vegetablesNeeded": [
+            "ingredientsNeeded": [
                 "carrot",
                 "ladies finger"
             ],
